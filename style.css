@@ -60,8 +60,15 @@ section{
     border-radius: 10px;
 }
 #exp-box-right-id{
-    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #c9adeb ,#5f1bb3);
+    border-image-slice: 1;
+}#exp-box-left-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,hsl(118, 68%, 75%) ,#117e2c);
+    border-image-slice: 1;
 }
+
 .violet-highlight{
     color: #19ac62;
 }
