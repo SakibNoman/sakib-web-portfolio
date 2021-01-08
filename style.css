@@ -22,6 +22,7 @@ p{
     margin-left: 5%;
     padding-left: 2%;
 }
+
 .half-width img{
     width: 100%;
 }
@@ -31,6 +32,10 @@ p{
     color: white;
     padding: 10px 25px;
     border-radius: 5px;
+}
+.anchor-button:hover{
+    background-image: linear-gradient(180deg ,#8c59ca ,#5f1bb3 );
+    box-shadow: 0px 0px 10px gray;
 }
 section{
     height: 500px;
